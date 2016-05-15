@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<style type="text/css">
+<!--
+#overlay {
+     z-index: 9999; 
+	 position: fixed;
+	 text-align: center; 
+	 width: 100%; 
+	 bottom: 0px; 
+	 height: 120px; 
+	 vertical-align: top;
+	 background: rgba(134, 101, 199, 0.8);
+	 border: 0;
+
+}
+-->
+</style>
+<script type="text/javascript">
+for(var i=0;i<100;i++){
+	document.write(i+"<br>");
+}
+</script>
+<div id='overlay'><a href="#dg"><IMG border=0 alt="" src="http://img2.cache.netease.com/f2e/video/open_index_2015_new/images/app_down.png"></a></div>
+<!--[if IE 6]>
+<script type="text/javascript">
+(function(){
+var overlay = document.getElementById('overlay'), t;
+window.onscroll = function() {
+t && clearTimeout(t);
+t = setTimeout(function() {
+// reflow
+overlay.className = overlay.className;
+}, 13);
+};
+})();
+</script>
+<![endif]-->
+</div>
